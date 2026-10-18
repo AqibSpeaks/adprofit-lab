@@ -1,0 +1,1 @@
+Replace your GitHub repository root index.html with this file. Lemon Squeezy checkout link is configured, but automated subscription verification and Pro access are NOT implemented. Test Formspree separately. Do not charge customers for unimplemented features.
