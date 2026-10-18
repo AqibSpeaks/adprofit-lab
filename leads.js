@@ -7,7 +7,7 @@
     event.preventDefault();
     if (!form.reportValidity()) return;
     if (form.elements.namedItem('_gotcha').value.trim()) return;
-    if (form.action.includes('REPLACE_WITH_YOUR_FORM_ID')) {
+    if (!/^https:\/\/formspree\.io\/f\/[a-zA-Z0-9]+$/.test(form.action)) {
       status.textContent = 'Setup required: add your Formspree form ID to index.html first.';
       return;
     }
